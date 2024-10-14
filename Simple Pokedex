@@ -1,0 +1,391 @@
+<html>
+ <head>
+  <title>
+   Pokedex
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Nunito', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex justify-center space-x-4 p-4">
+   <!-- Pokedex List -->
+   <div class="bg-white rounded-lg shadow-lg w-80 p-4">
+    <div class="flex justify-between items-center mb-4">
+     <h1 class="text-2xl font-bold">
+      Pokedex
+     </h1>
+     <i class="fas fa-bars text-xl">
+     </i>
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+     <div class="bg-green-100 rounded-lg p-2">
+      <img alt="Bulbasaur image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/0Hre6j1gXfljeJP0S40sRUpoBCK65qv3m28Ia1eQ5upRwxaOB.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Bulbasaur
+       </h2>
+       <p class="text-sm text-gray-600">
+        Grass, Poison
+       </p>
+       <p class="text-sm text-gray-400">
+        #001
+       </p>
+      </div>
+     </div>
+     <div class="bg-green-100 rounded-lg p-2">
+      <img alt="Ivysaur image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/k5lTtvEX1e2Jb6bLBEdK6bLE6BcrwWGDkb0DIJ49PVXEOWzJA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Ivysaur
+       </h2>
+       <p class="text-sm text-gray-600">
+        Grass, Poison
+       </p>
+       <p class="text-sm text-gray-400">
+        #002
+       </p>
+      </div>
+     </div>
+     <div class="bg-green-200 rounded-lg p-2">
+      <img alt="Venusaur image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/29WD7wgHBbp0F5Ru9eydbELU7vX8ERTrelsNvfXP6HLP4YNnA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Venusaur
+       </h2>
+       <p class="text-sm text-gray-600">
+        Grass, Poison
+       </p>
+       <p class="text-sm text-gray-400">
+        #003
+       </p>
+      </div>
+     </div>
+     <div class="bg-red-100 rounded-lg p-2">
+      <img alt="Charmander image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/qrmdYzhI2nKGGd4WIfPKAtQ8SEmAbeG3lLiSgfolgWxM4YNnA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Charmander
+       </h2>
+       <p class="text-sm text-gray-600">
+        Fire
+       </p>
+       <p class="text-sm text-gray-400">
+        #004
+       </p>
+      </div>
+     </div>
+     <div class="bg-red-200 rounded-lg p-2">
+      <img alt="Charmeleon image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/Xq6Uqsf5OHzpa6YvMUhkYWYfPCMkzmRzyvPKjskcYYZ9bsmTA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Charmeleon
+       </h2>
+       <p class="text-sm text-gray-600">
+        Fire
+       </p>
+       <p class="text-sm text-gray-400">
+        #005
+       </p>
+      </div>
+     </div>
+     <div class="bg-red-300 rounded-lg p-2">
+      <img alt="Charizard image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/SDVU5majB6b9BlX4GD1nTfP1baEcvUPyoNdM4FxuEK1BOWzJA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Charizard
+       </h2>
+       <p class="text-sm text-gray-600">
+        Fire, Flying
+       </p>
+       <p class="text-sm text-gray-400">
+        #006
+       </p>
+      </div>
+     </div>
+     <div class="bg-blue-100 rounded-lg p-2">
+      <img alt="Squirtle image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/KGExjZTSSyIcBN5gKfgc4reqAQZ5JenJwES57qKwrQ953YNnA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Squirtle
+       </h2>
+       <p class="text-sm text-gray-600">
+        Water
+       </p>
+       <p class="text-sm text-gray-400">
+        #007
+       </p>
+      </div>
+     </div>
+     <div class="bg-blue-200 rounded-lg p-2">
+      <img alt="Wartortle image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/FEflAFklsazqfkooAMu0jFaWnThpClPfHyi6voqJcmcfvxaOB.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Wartortle
+       </h2>
+       <p class="text-sm text-gray-600">
+        Water
+       </p>
+       <p class="text-sm text-gray-400">
+        #008
+       </p>
+      </div>
+     </div>
+     <div class="bg-blue-300 rounded-lg p-2">
+      <img alt="Blastoise image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/upjSsSUiK9b9DBKskohviurMeXPK9CWckVxfwrJ01HfD4YNnA.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Blastoise
+       </h2>
+       <p class="text-sm text-gray-600">
+        Water
+       </p>
+       <p class="text-sm text-gray-400">
+        #009
+       </p>
+      </div>
+     </div>
+     <div class="bg-yellow-100 rounded-lg p-2">
+      <img alt="Pikachu image" class="w-full rounded-lg" height="50" src="https://storage.googleapis.com/a1aa/image/RPFGdlbOfqyGLKv8yCwhJfcWSkOTwiZmHXezerTKHTICwxaOB.jpg" width="50"/>
+      <div class="mt-2">
+       <h2 class="text-lg font-bold">
+        Pikachu
+       </h2>
+       <p class="text-sm text-gray-600">
+        Electric
+       </p>
+       <p class="text-sm text-gray-400">
+        #025
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Bulbasaur Details -->
+   <div class="bg-green-200 rounded-lg shadow-lg w-80 p-4">
+    <div class="flex justify-between items-center mb-4">
+     <i class="fas fa-arrow-left text-xl">
+     </i>
+     <i class="fas fa-heart text-xl">
+     </i>
+    </div>
+    <div class="text-center">
+     <img alt="Bulbasaur image" class="w-32 mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/0Hre6j1gXfljeJP0S40sRUpoBCK65qv3m28Ia1eQ5upRwxaOB.jpg" width="100"/>
+     <h2 class="text-2xl font-bold mt-2">
+      Bulbasaur
+     </h2>
+     <p class="text-sm text-gray-600">
+      #001
+     </p>
+     <div class="flex justify-center space-x-2 mt-2">
+      <span class="bg-green-500 text-white text-xs px-2 py-1 rounded">
+       Grass
+      </span>
+      <span class="bg-purple-500 text-white text-xs px-2 py-1 rounded">
+       Poison
+      </span>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg mt-4 p-4">
+     <div class="flex justify-around border-b pb-2">
+      <span class="text-sm font-bold">
+       About
+      </span>
+      <span class="text-sm text-gray-400">
+       Base Stats
+      </span>
+      <span class="text-sm text-gray-400">
+       Evolution
+      </span>
+      <span class="text-sm text-gray-400">
+       Moves
+      </span>
+     </div>
+     <div class="mt-4">
+      <div class="flex justify-between">
+       <span class="text-sm text-gray-600">
+        Species
+       </span>
+       <span class="text-sm font-bold">
+        Seed
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Height
+       </span>
+       <span class="text-sm font-bold">
+        2'3.6" (0.70 cm)
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Weight
+       </span>
+       <span class="text-sm font-bold">
+        15.2 lbs (6.9 kg)
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Abilities
+       </span>
+       <span class="text-sm font-bold">
+        Overgrow, Chlorophyll
+       </span>
+      </div>
+      <div class="mt-4">
+       <h3 class="text-sm font-bold">
+        Breeding
+       </h3>
+       <div class="flex justify-between mt-2">
+        <span class="text-sm text-gray-600">
+         Gender
+        </span>
+        <div class="flex space-x-2">
+         <span class="text-sm font-bold">
+          <i class="fas fa-mars text-blue-500">
+          </i>
+          87.5%
+         </span>
+         <span class="text-sm font-bold">
+          <i class="fas fa-venus text-pink-500">
+          </i>
+          12.5%
+         </span>
+        </div>
+       </div>
+       <div class="flex justify-between mt-2">
+        <span class="text-sm text-gray-600">
+         Egg Groups
+        </span>
+        <span class="text-sm font-bold">
+         Monster
+        </span>
+       </div>
+       <div class="flex justify-between mt-2">
+        <span class="text-sm text-gray-600">
+         Egg Cycle
+        </span>
+        <span class="text-sm font-bold">
+         Grass
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- Charmander Details -->
+   <div class="bg-red-200 rounded-lg shadow-lg w-80 p-4">
+    <div class="flex justify-between items-center mb-4">
+     <i class="fas fa-arrow-left text-xl">
+     </i>
+     <i class="fas fa-heart text-xl">
+     </i>
+    </div>
+    <div class="text-center">
+     <img alt="Charmander image" class="w-32 mx-auto" height="100" src="https://storage.googleapis.com/a1aa/image/qrmdYzhI2nKGGd4WIfPKAtQ8SEmAbeG3lLiSgfolgWxM4YNnA.jpg" width="100"/>
+     <h2 class="text-2xl font-bold mt-2">
+      Charmander
+     </h2>
+     <p class="text-sm text-gray-600">
+      #004
+     </p>
+     <div class="flex justify-center space-x-2 mt-2">
+      <span class="bg-red-500 text-white text-xs px-2 py-1 rounded">
+       Fire
+      </span>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg mt-4 p-4">
+     <div class="flex justify-around border-b pb-2">
+      <span class="text-sm font-bold">
+       About
+      </span>
+      <span class="text-sm text-gray-400">
+       Base Stats
+      </span>
+      <span class="text-sm text-gray-400">
+       Evolution
+      </span>
+      <span class="text-sm text-gray-400">
+       Moves
+      </span>
+     </div>
+     <div class="mt-4">
+      <div class="flex justify-between">
+       <span class="text-sm text-gray-600">
+        HP
+       </span>
+       <span class="text-sm font-bold">
+        45
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Attack
+       </span>
+       <span class="text-sm font-bold">
+        60
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Defense
+       </span>
+       <span class="text-sm font-bold">
+        48
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Sp. Atk
+       </span>
+       <span class="text-sm font-bold">
+        65
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Sp. Def
+       </span>
+       <span class="text-sm font-bold">
+        50
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Speed
+       </span>
+       <span class="text-sm font-bold">
+        65
+       </span>
+      </div>
+      <div class="flex justify-between mt-2">
+       <span class="text-sm text-gray-600">
+        Total
+       </span>
+       <span class="text-sm font-bold">
+        317
+       </span>
+      </div>
+      <div class="mt-4">
+       <h3 class="text-sm font-bold">
+        Type defenses
+       </h3>
+       <p class="text-sm text-gray-600">
+        The effectiveness of each type on Charmander.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
